@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot 1`] = `
+<View>
+  <EditModeWrapper
+    data={
+      Object {
+        "settings": Array [
+          Object {
+            "calculated": null,
+            "extraProps": Object {},
+            "fieldType": "TextFieldView",
+            "label": "Label",
+            "value": "Date",
+          },
+          Object {
+            "calculated": null,
+            "extraProps": Object {
+              "options": Array [
+                Object {
+                  "label": "Yes",
+                  "value": true,
+                },
+                Object {
+                  "label": "No",
+                  "value": false,
+                },
+              ],
+            },
+            "fieldType": "QuickPickView",
+            "label": "Show In Search",
+            "value": false,
+          },
+          Object {
+            "calculated": null,
+            "fieldType": "TextFieldView",
+            "label": "Max Days Future",
+            "value": "",
+          },
+          Object {
+            "calculated": null,
+            "fieldType": "TextFieldView",
+            "label": "Max Days Past",
+            "value": "",
+          },
+          Object {
+            "calculated": null,
+            "fieldType": "TextFieldView",
+            "label": "Default Date Offset (Days)",
+            "value": "",
+          },
+          Object {
+            "calculated": null,
+            "extraProps": Object {
+              "options": Array [
+                Object {
+                  "label": "Yes",
+                  "value": true,
+                },
+                Object {
+                  "label": "No",
+                  "value": false,
+                },
+              ],
+            },
+            "fieldType": "QuickPickView",
+            "label": "Default to Today",
+            "value": false,
+          },
+          Object {
+            "calculated": null,
+            "extraProps": Object {
+              "options": Array [
+                Object {
+                  "label": "Yes",
+                  "value": true,
+                },
+                Object {
+                  "label": "No",
+                  "value": false,
+                },
+              ],
+            },
+            "fieldType": "QuickPickView",
+            "label": "Required",
+            "value": false,
+          },
+          Object {
+            "calculated": null,
+            "extraProps": Object {
+              "options": Array [
+                Object {
+                  "label": "Yes",
+                  "value": true,
+                },
+                Object {
+                  "label": "No",
+                  "value": false,
+                },
+              ],
+            },
+            "fieldType": "QuickPickView",
+            "label": "Read Only",
+            "value": false,
+          },
+          Object {
+            "calculated": null,
+            "extraProps": Object {
+              "options": Array [
+                Object {
+                  "label": "Yes",
+                  "value": true,
+                },
+                Object {
+                  "label": "No",
+                  "value": false,
+                },
+              ],
+            },
+            "fieldType": "QuickPickView",
+            "label": "Hidden",
+            "value": false,
+          },
+          Object {
+            "calculated": null,
+            "extraProps": Object {
+              "options": Array [
+                Object {
+                  "label": "Yes",
+                  "value": true,
+                },
+                Object {
+                  "label": "No",
+                  "value": false,
+                },
+              ],
+            },
+            "fieldType": "QuickPickView",
+            "label": "Report When Hidden",
+            "value": false,
+          },
+          Object {
+            "calculated": null,
+            "extraProps": Object {
+              "options": Array [
+                Object {
+                  "label": "Date",
+                  "value": "date",
+                },
+                Object {
+                  "label": "Time",
+                  "value": "time",
+                },
+                Object {
+                  "label": "Date & Time",
+                  "value": "datetime",
+                },
+              ],
+            },
+            "fieldType": "QuickPickView",
+            "label": "Data Type",
+            "value": "date",
+          },
+          Object {
+            "calculated": null,
+            "extraProps": Object {
+              "options": Array [
+                Object {
+                  "label": "Year",
+                  "value": "year",
+                },
+                Object {
+                  "label": "Calendar",
+                  "value": "calendar",
+                },
+              ],
+            },
+            "fieldType": "QuickPickView",
+            "label": "Initial Picker",
+            "value": "calendar",
+          },
+          Object {
+            "calculated": null,
+            "extraProps": Object {
+              "options": Array [
+                Object {
+                  "label": "Yes",
+                  "value": true,
+                },
+                Object {
+                  "label": "No",
+                  "value": false,
+                },
+              ],
+            },
+            "fieldType": "QuickPickView",
+            "label": "Set Now Button",
+            "value": false,
+          },
+        ],
+        "values": Object {
+          "default": "",
+        },
+      }
+    }
+    onPressEdit={[Function]}
+  >
+    <DateFieldView
+      globalStyle={
+        Object {
+          "disabledText": "rgb(179, 179, 179)",
+          "errorColour": "red",
+          "fullLogo": Object {
+            "testUri": "../../../app/assets/efrsFullBanner.png",
+          },
+          "neutralColour": "white",
+          "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+          "neutralColourHighlight": "rgb(217, 217, 217)",
+          "neutralColourIsDark": false,
+          "neutralColourOffset": "rgb(242, 242, 242)",
+          "neutralColourText": "rgb(51, 51, 51)",
+          "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+          "primaryColour": "dodgerblue",
+          "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+          "primaryColourHighlight": "rgb(106, 182, 255)",
+          "primaryColourIsDark": true,
+          "primaryColourText": "rgb(255, 255, 255)",
+          "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+          "secondaryColour": "#f3f3f3",
+          "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+          "secondaryColourHighlight": "rgb(205, 205, 205)",
+          "secondaryColourIsDark": undefined,
+          "secondaryColourText": "rgb(39, 39, 39)",
+          "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+          "secondaryLogo": Object {
+            "testUri": "../../../app/assets/icon.png",
+          },
+        }
+      }
+      maxDate={null}
+      minDate={null}
+      onChange={[Function]}
+      settings={Object {}}
+      value=""
+    />
+  </EditModeWrapper>
+</View>
+`;

@@ -1,0 +1,87 @@
+html
+    head
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Bitter|Barlow:400,700")
+        meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        style(type="text/css")
+            include css/style.css
+    body
+        .page-container
+
+            .container
+                .row
+                    .col.center-folded
+                        img(src="/images/efrsFullBanner.png", width=200)
+                    .col.text-right.left-folded
+                        h1.center-folded Tax Invoice
+                        .bold ABN: 00 000 000 000
+                        .company.small Example Apps Pty Ltd
+                        p
+                            | 123 Example Street
+                            br
+                            | Example City, Queensland 4000
+                            br
+                            | Australia
+                        p
+                            | Phone: +61000000000
+                            br
+                            a(href="https://www.efrs.io") www.efrs.io
+
+            hr
+            .container
+                .row
+                    .col
+                        .bold= statement.company.billing.billingName
+                        p.line-break= statement.company.billing.billTo
+
+                    .col
+                        if(statement.company.billing.shipTo)
+                            .bold Ship To
+                            p.line-break= statement.company.billing.shipTo
+                    .col
+                        .row
+                            .col.bold Statement Month
+                            .col #{statement.month}/#{statement.year}
+                        .row
+                            .col.bold Invoice #
+                            .col #{statement._id}
+                        if(statement.company.billing.purchaseOrder)
+                            .row
+                                .col.bold Purchse Order #
+                                .col #{statement.company.billing.purchaseOrder}
+                        .row
+                            .col.bold Amount Due
+                            .col $#{(statement.outstanding).toFixed(2)}
+
+            table.table
+                thead
+                    tr
+                        th.text-left Form / Description
+                        th.text-right Qty
+                        th.text-right Amount
+                tbody
+                    each line in statement.lines
+                        tr
+                            td.line-break= line.description
+                            td.text-right= line.qty
+                            td.text-right $#{line.amount.toFixed(2)}
+                    tr
+                        td
+                        td.text-right Tax #{statement.taxRate}%
+                        td.text-right $#{(statement.tax).toFixed(2)}
+                    tr
+                        td
+                        td.text-right Balance
+                        td.text-right $#{(statement.balance).toFixed(2)}
+                    tr
+                        td
+                        td.text-right Outstanding
+                        td.bold.text-right $#{(statement.outstanding).toFixed(2)}
+
+            if statement.outstanding > 0
+                .well.text-center.no-print
+                    p Pay the outstanding amount of $#{(statement.outstanding).toFixed(2)} AUD below
+                        form(action='./pay', method='POST')
+                            script.stripe-button(src='https://checkout.stripe.com/checkout.js', data-key=stripeKey, data-amount='#{Math.round(statement.outstanding * 1.1 * 100)}', data-name='eFRS', data-description='Pay eFRS invoice', data-image='https://www.efrs.io/images/logo-sml.png', data-locale='auto', data-zip-code='true', data-currency='aud')
+
+            p.notes= statement.company.billing.notes

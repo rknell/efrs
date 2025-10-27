@@ -1,0 +1,423 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a colour brick 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  key="black"
+  onPress={[Function]}
+  style={
+    Object {
+      "flex": 1,
+      "flexBasis": 100,
+      "flexGrow": 1,
+      "flexShrink": 0,
+      "height": 100,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#000",
+        "flex": 1,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+        }
+      }
+    >
+      black
+    </Text>
+  </View>
+</TouchableOpacity>
+`;
+
+exports[`renders a light colour brick 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  key="white"
+  onPress={[Function]}
+  style={
+    Object {
+      "flex": 1,
+      "flexBasis": 100,
+      "flexGrow": 1,
+      "flexShrink": 0,
+      "height": 100,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "black",
+        }
+      }
+    >
+      white
+    </Text>
+  </View>
+</TouchableOpacity>
+`;
+
+exports[`should render the detail view 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <NavBar
+    title="Select Colour"
+  />
+  <ScrollViewMock
+    contentContainerStyle={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "flex-start",
+      }
+    }
+    style={
+      Object {
+        "backgroundColor": "rgba(0,0,0,0.3)",
+        "flex": 1,
+      }
+    }
+  >
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Red",
+          "value": "#f34235",
+        }
+      }
+      key="#f34235"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Pink",
+          "value": "#e81d62",
+        }
+      }
+      key="#e81d62"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Purple",
+          "value": "#9b26af",
+        }
+      }
+      key="#9b26af"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Indigo",
+          "value": "#3e50b4",
+        }
+      }
+      key="#3e50b4"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Blue",
+          "value": "#2095f2",
+        }
+      }
+      key="#2095f2"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Light Blue",
+          "value": "#02a8f3",
+        }
+      }
+      key="#02a8f3"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Cyan",
+          "value": "#00bbd3",
+        }
+      }
+      key="#00bbd3"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Teal",
+          "value": "#009587",
+        }
+      }
+      key="#009587"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Green",
+          "value": "#4bae4f",
+        }
+      }
+      key="#4bae4f"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Light Green",
+          "value": "#8ac249",
+        }
+      }
+      key="#8ac249"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Lime",
+          "value": "#ccdb38",
+        }
+      }
+      key="#ccdb38"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Yellow",
+          "value": "#feea3a",
+        }
+      }
+      key="#feea3a"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Amber",
+          "value": "#fec006",
+        }
+      }
+      key="#fec006"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Orange",
+          "value": "#fe9700",
+        }
+      }
+      key="#fe9700"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Deep Orange",
+          "value": "#fe5621",
+        }
+      }
+      key="#fe5621"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Brown",
+          "value": "#785447",
+        }
+      }
+      key="#785447"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Grey",
+          "value": "#9d9d9d",
+        }
+      }
+      key="#9d9d9d"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Blue Grey",
+          "value": "#5f7c8a",
+        }
+      }
+      key="#5f7c8a"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "Black",
+          "value": "#000",
+        }
+      }
+      key="#000"
+      onPress={[Function]}
+    />
+    <ColourBrick
+      colour={
+        Object {
+          "name": "White",
+          "value": "#fff",
+        }
+      }
+      key="#fff"
+      onPress={[Function]}
+    />
+  </ScrollViewMock>
+</View>
+`;
+
+exports[`should render the form control in edit mode 1`] = `
+<FieldBase
+  editMode={true}
+  hidden={false}
+  settings={
+    Object {
+      "test": true,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "dodgerblue",
+          }
+        }
+      >
+        Pick Colour
+      </Text>
+    </TouchableOpacity>
+  </View>
+</FieldBase>
+`;
+
+exports[`should render the form control with black selected 1`] = `
+<FieldBase
+  value="black"
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "padding": 10,
+          }
+        }
+      />
+    </TouchableOpacity>
+  </View>
+</FieldBase>
+`;
+
+exports[`should render the form control with no value selected 1`] = `
+<FieldBase
+  settings={
+    Object {
+      "test": true,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "dodgerblue",
+          }
+        }
+      >
+        Pick Colour
+      </Text>
+    </TouchableOpacity>
+  </View>
+</FieldBase>
+`;

@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "dodgerblue",
+          "borderRadius": 2,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "minWidth": 30,
+          "padding": 6,
+        },
+        undefined,
+      ]
+    }
+  />
+</TouchableOpacity>
+`;
+
+exports[`should render a label 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "dodgerblue",
+          "borderRadius": 2,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "minWidth": 30,
+          "padding": 6,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgb(255, 255, 255)",
+          "fontSize": 18,
+        }
+      }
+    >
+       
+      TEST LABEL
+    </Text>
+  </View>
+</TouchableOpacity>
+`;
+
+exports[`should show a ui change when disabled 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  disabled={true}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(30, 144, 255, 0.3)",
+          "borderRadius": 2,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "minWidth": 30,
+          "padding": 6,
+        },
+        undefined,
+      ]
+    }
+  />
+</TouchableOpacity>
+`;

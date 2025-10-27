@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render an action field 1`] = `
+<EditModeWrapper
+  data={
+    Object {
+      "settings": Array [
+        Object {
+          "extraProps": Object {},
+          "fieldType": "TextFieldView",
+          "label": "Label",
+          "value": "",
+        },
+        Object {
+          "extraProps": Object {
+            "options": Array [
+              Object {
+                "label": "Yes",
+                "value": true,
+              },
+              Object {
+                "label": "No",
+                "value": false,
+              },
+            ],
+          },
+          "fieldType": "QuickPickView",
+          "label": "Read Only",
+          "value": false,
+        },
+        Object {
+          "extraProps": Object {
+            "options": Array [
+              Object {
+                "label": "Yes",
+                "value": true,
+              },
+              Object {
+                "label": "No",
+                "value": false,
+              },
+            ],
+          },
+          "fieldType": "QuickPickView",
+          "label": "Hidden",
+          "value": false,
+        },
+        Object {
+          "extraProps": Object {
+            "options": Array [
+              Object {
+                "label": "Yes",
+                "value": true,
+              },
+              Object {
+                "label": "No",
+                "value": false,
+              },
+            ],
+          },
+          "fieldType": "QuickPickView",
+          "label": "Report When Hidden",
+          "value": false,
+        },
+        Object {
+          "extraProps": Object {},
+          "fieldType": "TextFieldView",
+          "label": "Change Status To",
+          "value": "",
+        },
+        Object {
+          "extraProps": Object {
+            "single": true,
+          },
+          "fieldType": "GroupPickerFieldView",
+          "label": "Assign To Group",
+          "value": "",
+        },
+        Object {
+          "extraProps": Object {
+            "single": true,
+          },
+          "fieldType": "UserPickerFieldView",
+          "label": "Assign To User",
+          "value": "",
+        },
+        Object {
+          "extraProps": Object {
+            "options": Array [
+              Object {
+                "label": "Yes",
+                "value": true,
+              },
+              Object {
+                "label": "No",
+                "value": false,
+              },
+            ],
+          },
+          "fieldType": "QuickPickView",
+          "label": "Unassign All",
+          "value": false,
+        },
+      ],
+    }
+  }
+  formController={
+    MockFormController {
+      "model": Object {
+        "disableScroll": true,
+      },
+    }
+  }
+  gs={
+    GlobalState {
+      "_setPushToken": [Function],
+      "apiPath": "https://www.efrs.io/api",
+      "current": [Function],
+      "model": Object {
+        "cachedCalls": Object {
+          "get": Object {},
+          "post": Array [],
+        },
+        "canPop": false,
+        "forms": Array [],
+        "isBusy": 0,
+        "pushToken": "TESTTOKEN",
+        "user": null,
+        "userPermissions": Object {
+          "groups": Array [],
+          "permissions": Object {},
+        },
+        "userToken": null,
+      },
+      "navigation": Object {
+        "push": [Function],
+        "resetTo": [Function],
+      },
+      "pushNotifications": Messaging {
+        "getToken": [Function],
+        "onMessage": [Function],
+        "requestPermissions": [Function],
+      },
+    }
+  }
+  onPressEdit={[Function]}
+>
+  <Button
+    disabled={false}
+    onPress={[Function]}
+    title=""
+  />
+</EditModeWrapper>
+`;

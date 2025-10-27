@@ -1,0 +1,50 @@
+eFRS COMMUNITY SOURCE LICENSE
+
+Version 1.0 – 2024-06-11
+
+1. Definitions
+   "Software" means the eFRS codebase and all accompanying files.
+   "You" and "Your" means the individual or legal entity exercising the rights granted by this License.
+
+2. License Grant
+   Subject to the terms below, You are granted a worldwide, royalty-free, non-exclusive, non-transferable right to
+   (a) use, reproduce, and modify the Software solely for Your internal business purposes; and
+   (b) deploy and operate the Software on infrastructure owned or controlled by You for internal consumption by Your personnel.
+
+3. Distribution and Contribution
+   If You modify the Software, You must contribute those modifications back to the upstream project within a reasonable time,
+   and under the terms of this License. Contributions shall be submitted through the public project repository or any successor
+   system designated by the maintainers.
+
+4. Prohibited Uses
+   You may not:
+   (a) sell, license, sublicense, or otherwise monetize the Software or any derivative work;
+   (b) host, operate, or provide the Software as a service to third parties outside Your organization;
+   (c) provide consulting, support, or other services for the Software to third parties for profit; or
+   (d) use the Software in any manner that violates applicable law.
+
+5. No Trademark License
+   This License does not grant permission to use the eFRS name, logos, or trademarks.
+
+6. Redistribution
+   You may redistribute unmodified copies of the Software provided that this License text and all copyright notices
+   are included. Redistribution of modified versions must comply with Section 3.
+
+7. Termination
+   This License terminates automatically if You breach its terms. Upon termination, You must cease all use of the Software
+   and destroy any copies in Your possession. Sections 5, 6, 7, and 8 survive termination.
+
+8. Disclaimer of Warranty
+   THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. THE AUTHORS DISCLAIM ALL WARRANTIES,
+   INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+9. Limitation of Liability
+   IN NO EVENT WILL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION
+   OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+   THE SOFTWARE.
+
+10. Governing Law
+   This License shall be governed by and construed in accordance with the laws of the jurisdiction of the primary maintainer,
+   without regard to conflict of law principles.
+
+By using, modifying, or distributing the Software, You agree to the terms of this License.

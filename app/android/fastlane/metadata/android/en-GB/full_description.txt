@@ -1,0 +1,5 @@
+Enterprise Field Reporting System (eFRS). Create smart forms and reports for field workers. Easy to use interface that allows you to build in a wide range of logic to handle almost any scenario. Ideal for phones and tablets, with an Android and iOS version available, so your entire workforce can use the same application.
+
+Geared specifically towards enterprise, choose between hosted onsite or cloud hosting. Simple pricing structure based on the number of users and the features required.
+
+Developed and supported by the eFRS community. Contact support@example.com to create an account and arrange a demo.

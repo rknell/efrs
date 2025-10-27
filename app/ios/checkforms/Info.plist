@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BugsnagAPIKey</key>
+	<string>2d50369b43127e3aff5aaa4046b3d0de</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>eFRS</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>efrs</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>CodePushDeploymentKey</key>
+	<string>$(CODEPUSH_KEY)</string>
+	<key>CodePushPublicKey</key>
+	<string>-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArugfYnPCTU8q60uzJJy+
+JGtQ67OtusCIvV92WEWjE359gbviIzQVzKw95H6TC2iByjnfvjCAlVm+xXAUFnlW
+5S3qXNle8zZrSvlbd2sCd13YyWRnOSQLJzEmiViND6gvfJ17t3mQY1q7dAsDxYJP
+FmEH7R/XsUh3y9J4VCn6hF01cWF2W+XzFajbNNOOJxmLyiFkrPOjHEb7QD0g68BU
+Yepu9IusWXBc+ZAmR8Ny5+O3OqyrEPe0jwmK+HMJ/BbMbLVpEqTTg1eNnjSBIIuM
+5thnYy6is23vL79KreZfYhHOwUfpTe+YnItvqUz0v8WOQFeqCy2b054Z22AQi24H
+sQIDAQAB
+-----END PUBLIC KEY-----</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>9440bbef4cf19f98c09209df848d6b8c37a93af2</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Add photos to a form</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>eFRS needs to access your location in order to correctly locate you on forms where the GPS coordinates are required</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>To add your location to a form</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Add audio to video</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Save photos to device for upload</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Add photos to a form</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Zocial.ttf</string>
+		<string>Feather.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>eFRS needs your location to fill it in on a form</string>
+</dict>
+</plist>

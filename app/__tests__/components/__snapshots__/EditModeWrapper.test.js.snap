@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render in edit mode 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "dodgerblue",
+        "borderBottomColor": "rgba(0,0,0,0.1)",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "padding": 5,
+          "paddingLeft": 10,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        name="chevron-up"
+        size={20}
+        style={
+          Object {
+            "color": "rgb(255, 255, 255)",
+          }
+        }
+      />
+    </TouchableOpacity>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "padding": 5,
+          "paddingRight": 15,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        name="chevron-down"
+        size={20}
+        style={
+          Object {
+            "color": "rgb(255, 255, 255)",
+          }
+        }
+      />
+    </TouchableOpacity>
+  </View>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "rgba(0,0,0,0.1)",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`should render only children in edit mode 1`] = `
+<Text>
+  TEST
+</Text>
+`;

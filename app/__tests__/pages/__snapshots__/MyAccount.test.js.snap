@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <NavBar
+    isMenuDisabled={true}
+    title="My Account"
+  />
+  <Text
+    style={
+      Object {
+        "alignSelf": "center",
+        "padding": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    Please confirm your details, and setup your password before you continue
+  </Text>
+  <UserDetailView
+    isPersonal={true}
+    onValidationChanged={[Function]}
+    user={
+      Object {
+        "__v": 0,
+        "_id": "5a36fa6aac023a4b3bae2f22",
+        "company": "5a36fa6aac023a4b3bae2f20",
+        "createdAt": "2017-12-17T23:14:50.373Z",
+        "domain": "example.com.au",
+        "email": "user12@example.com",
+        "firstName": "Admin",
+        "isSetup": false,
+        "lastName": "User",
+        "password": "$2a$08$gtSMlrmdhH0zOeeYJzPh.egq2I65fD9WFV5PypJfNWqikrZOzFQJq",
+        "pushTokens": Array [],
+        "relationships": Array [],
+        "updatedAt": "2017-12-17T23:14:50.390Z",
+        "username": "user12@example.com",
+      }
+    }
+  />
+  <IconButton
+    isDisabled={true}
+    label="Save & Continue"
+    name="save"
+    onPress={[Function]}
+    translate={true}
+  />
+</View>
+`;

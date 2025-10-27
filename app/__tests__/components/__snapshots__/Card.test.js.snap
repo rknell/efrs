@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgba(0,0,0,0.1)",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "paddingLeft": 10,
+        "paddingRight": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 30,
+          }
+        }
+      >
+        +
+      </Text>
+    </TouchableOpacity>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "paddingLeft": 10,
+        "paddingRight": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      Add Another
+    </Text>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 30,
+          }
+        }
+      >
+        +
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`matches snapshot 2`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgba(0,0,0,0.1)",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "paddingLeft": 10,
+        "paddingRight": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 30,
+          }
+        }
+      >
+        +
+      </Text>
+    </TouchableOpacity>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "paddingLeft": 10,
+        "paddingRight": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      Add Another
+    </Text>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 30,
+          }
+        }
+      >
+        +
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;

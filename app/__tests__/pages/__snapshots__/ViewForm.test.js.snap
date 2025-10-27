@@ -1,0 +1,388 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExportView renders an exportView 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <NavBar
+    title="Export"
+  />
+  <QuickPick
+    globalStyle={
+      Object {
+        "disabledText": "rgb(179, 179, 179)",
+        "errorColour": "red",
+        "fullLogo": Object {
+          "testUri": "../../../app/assets/efrsFullBanner.png",
+        },
+        "neutralColour": "white",
+        "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+        "neutralColourHighlight": "rgb(217, 217, 217)",
+        "neutralColourIsDark": false,
+        "neutralColourOffset": "rgb(242, 242, 242)",
+        "neutralColourText": "rgb(51, 51, 51)",
+        "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+        "primaryColour": "dodgerblue",
+        "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+        "primaryColourHighlight": "rgb(106, 182, 255)",
+        "primaryColourIsDark": true,
+        "primaryColourText": "rgb(255, 255, 255)",
+        "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+        "secondaryColour": "#f3f3f3",
+        "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+        "secondaryColourHighlight": "rgb(205, 205, 205)",
+        "secondaryColourIsDark": undefined,
+        "secondaryColourText": "rgb(39, 39, 39)",
+        "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+        "secondaryLogo": Object {
+          "testUri": "../../../app/assets/icon.png",
+        },
+      }
+    }
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "label": "Report",
+          "value": "report",
+        },
+      ]
+    }
+    settings={
+      Object {
+        "Label": "Export",
+      }
+    }
+    value="report"
+  />
+  <QuickPick
+    globalStyle={
+      Object {
+        "disabledText": "rgb(179, 179, 179)",
+        "errorColour": "red",
+        "fullLogo": Object {
+          "testUri": "../../../app/assets/efrsFullBanner.png",
+        },
+        "neutralColour": "white",
+        "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+        "neutralColourHighlight": "rgb(217, 217, 217)",
+        "neutralColourIsDark": false,
+        "neutralColourOffset": "rgb(242, 242, 242)",
+        "neutralColourText": "rgb(51, 51, 51)",
+        "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+        "primaryColour": "dodgerblue",
+        "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+        "primaryColourHighlight": "rgb(106, 182, 255)",
+        "primaryColourIsDark": true,
+        "primaryColourText": "rgb(255, 255, 255)",
+        "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+        "secondaryColour": "#f3f3f3",
+        "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+        "secondaryColourHighlight": "rgb(205, 205, 205)",
+        "secondaryColourIsDark": undefined,
+        "secondaryColourText": "rgb(39, 39, 39)",
+        "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+        "secondaryLogo": Object {
+          "testUri": "../../../app/assets/icon.png",
+        },
+      }
+    }
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "label": "CSV",
+          "value": "csv",
+        },
+        Object {
+          "label": "PDF",
+          "value": "html",
+        },
+      ]
+    }
+    settings={
+      Object {
+        "Label": "To Format",
+      }
+    }
+    value={null}
+  />
+  <QuickPick
+    globalStyle={
+      Object {
+        "disabledText": "rgb(179, 179, 179)",
+        "errorColour": "red",
+        "fullLogo": Object {
+          "testUri": "../../../app/assets/efrsFullBanner.png",
+        },
+        "neutralColour": "white",
+        "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+        "neutralColourHighlight": "rgb(217, 217, 217)",
+        "neutralColourIsDark": false,
+        "neutralColourOffset": "rgb(242, 242, 242)",
+        "neutralColourText": "rgb(51, 51, 51)",
+        "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+        "primaryColour": "dodgerblue",
+        "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+        "primaryColourHighlight": "rgb(106, 182, 255)",
+        "primaryColourIsDark": true,
+        "primaryColourText": "rgb(255, 255, 255)",
+        "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+        "secondaryColour": "#f3f3f3",
+        "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+        "secondaryColourHighlight": "rgb(205, 205, 205)",
+        "secondaryColourIsDark": undefined,
+        "secondaryColourText": "rgb(39, 39, 39)",
+        "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+        "secondaryLogo": Object {
+          "testUri": "../../../app/assets/icon.png",
+        },
+      }
+    }
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "label": "Download",
+          "value": "download",
+        },
+        Object {
+          "label": "Email",
+          "value": "email",
+        },
+      ]
+    }
+    settings={
+      Object {
+        "Label": "Destination",
+      }
+    }
+    value={null}
+  />
+  <Button
+    color="dodgerblue"
+    onPress={[Function]}
+    title="Export"
+  />
+</View>
+`;
+
+exports[`ExportView renders an exportView with destination email 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <NavBar
+    title="Export"
+  />
+  <QuickPick
+    globalStyle={
+      Object {
+        "disabledText": "rgb(179, 179, 179)",
+        "errorColour": "red",
+        "fullLogo": Object {
+          "testUri": "../../../app/assets/efrsFullBanner.png",
+        },
+        "neutralColour": "white",
+        "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+        "neutralColourHighlight": "rgb(217, 217, 217)",
+        "neutralColourIsDark": false,
+        "neutralColourOffset": "rgb(242, 242, 242)",
+        "neutralColourText": "rgb(51, 51, 51)",
+        "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+        "primaryColour": "dodgerblue",
+        "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+        "primaryColourHighlight": "rgb(106, 182, 255)",
+        "primaryColourIsDark": true,
+        "primaryColourText": "rgb(255, 255, 255)",
+        "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+        "secondaryColour": "#f3f3f3",
+        "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+        "secondaryColourHighlight": "rgb(205, 205, 205)",
+        "secondaryColourIsDark": undefined,
+        "secondaryColourText": "rgb(39, 39, 39)",
+        "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+        "secondaryLogo": Object {
+          "testUri": "../../../app/assets/icon.png",
+        },
+      }
+    }
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "label": "Report",
+          "value": "report",
+        },
+      ]
+    }
+    settings={
+      Object {
+        "Label": "Export",
+      }
+    }
+    value="report"
+  />
+  <QuickPick
+    globalStyle={
+      Object {
+        "disabledText": "rgb(179, 179, 179)",
+        "errorColour": "red",
+        "fullLogo": Object {
+          "testUri": "../../../app/assets/efrsFullBanner.png",
+        },
+        "neutralColour": "white",
+        "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+        "neutralColourHighlight": "rgb(217, 217, 217)",
+        "neutralColourIsDark": false,
+        "neutralColourOffset": "rgb(242, 242, 242)",
+        "neutralColourText": "rgb(51, 51, 51)",
+        "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+        "primaryColour": "dodgerblue",
+        "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+        "primaryColourHighlight": "rgb(106, 182, 255)",
+        "primaryColourIsDark": true,
+        "primaryColourText": "rgb(255, 255, 255)",
+        "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+        "secondaryColour": "#f3f3f3",
+        "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+        "secondaryColourHighlight": "rgb(205, 205, 205)",
+        "secondaryColourIsDark": undefined,
+        "secondaryColourText": "rgb(39, 39, 39)",
+        "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+        "secondaryLogo": Object {
+          "testUri": "../../../app/assets/icon.png",
+        },
+      }
+    }
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "label": "CSV",
+          "value": "csv",
+        },
+        Object {
+          "label": "PDF",
+          "value": "html",
+        },
+      ]
+    }
+    settings={
+      Object {
+        "Label": "To Format",
+      }
+    }
+    value={null}
+  />
+  <QuickPick
+    globalStyle={
+      Object {
+        "disabledText": "rgb(179, 179, 179)",
+        "errorColour": "red",
+        "fullLogo": Object {
+          "testUri": "../../../app/assets/efrsFullBanner.png",
+        },
+        "neutralColour": "white",
+        "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+        "neutralColourHighlight": "rgb(217, 217, 217)",
+        "neutralColourIsDark": false,
+        "neutralColourOffset": "rgb(242, 242, 242)",
+        "neutralColourText": "rgb(51, 51, 51)",
+        "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+        "primaryColour": "dodgerblue",
+        "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+        "primaryColourHighlight": "rgb(106, 182, 255)",
+        "primaryColourIsDark": true,
+        "primaryColourText": "rgb(255, 255, 255)",
+        "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+        "secondaryColour": "#f3f3f3",
+        "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+        "secondaryColourHighlight": "rgb(205, 205, 205)",
+        "secondaryColourIsDark": undefined,
+        "secondaryColourText": "rgb(39, 39, 39)",
+        "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+        "secondaryLogo": Object {
+          "testUri": "../../../app/assets/icon.png",
+        },
+      }
+    }
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "label": "Download",
+          "value": "download",
+        },
+        Object {
+          "label": "Email",
+          "value": "email",
+        },
+      ]
+    }
+    settings={
+      Object {
+        "Label": "Destination",
+      }
+    }
+    value="email"
+  />
+  <TextFieldView
+    globalStyle={
+      Object {
+        "disabledText": "rgb(179, 179, 179)",
+        "errorColour": "red",
+        "fullLogo": Object {
+          "testUri": "../../../app/assets/efrsFullBanner.png",
+        },
+        "neutralColour": "white",
+        "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+        "neutralColourHighlight": "rgb(217, 217, 217)",
+        "neutralColourIsDark": false,
+        "neutralColourOffset": "rgb(242, 242, 242)",
+        "neutralColourText": "rgb(51, 51, 51)",
+        "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+        "primaryColour": "dodgerblue",
+        "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+        "primaryColourHighlight": "rgb(106, 182, 255)",
+        "primaryColourIsDark": true,
+        "primaryColourText": "rgb(255, 255, 255)",
+        "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+        "secondaryColour": "#f3f3f3",
+        "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+        "secondaryColourHighlight": "rgb(205, 205, 205)",
+        "secondaryColourIsDark": undefined,
+        "secondaryColourText": "rgb(39, 39, 39)",
+        "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+        "secondaryLogo": Object {
+          "testUri": "../../../app/assets/icon.png",
+        },
+      }
+    }
+    onChange={[Function]}
+    settings={
+      Object {
+        "Auto Capitalize": "none",
+        "Auto Correct": false,
+        "Keyboard Type": "email-address",
+        "Label": "Email",
+      }
+    }
+    value=""
+  />
+  <Button
+    color="dodgerblue"
+    onPress={[Function]}
+    title="Export"
+  />
+</View>
+`;

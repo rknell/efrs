@@ -1,0 +1,10 @@
+# SendGrid configuration
+#
+# The original repository contained real SendGrid credentials. They have been
+# removed. Provide your own credentials via environment variables, for example:
+#
+#   SENDGRID_APIKEY=<your api key>
+#   SENDGRID_USERNAME=<your username>
+#   SENDGRID_PASSWORD=<your password>
+#
+# Never commit live credentials to source control.

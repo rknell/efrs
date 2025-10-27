@@ -1,0 +1,105 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row .col {
+    flex: 1;
+    flex-basis: 200px;
+}
+
+.line-break {
+    white-space: pre-line;
+}
+
+table {
+    width: 100%
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+th {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 8px;
+}
+
+td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 8px;
+}
+
+.container {
+    padding: 20px
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Barlow, sans-serif;
+}
+
+h1 {
+    font-family: Bitter, sans-serif;
+}
+
+.well {
+    background-color: #126cb6;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+
+@media print {
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+
+@media screen {
+    .page-container {
+        align-self: center;
+        max-width: 800px;
+        background-color: white;
+        padding: 30px;
+        flex-basis: 680px;
+    }
+
+    body {
+        background-color: #888887;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*Folded*/
+@media only screen and (max-width: 680px) {
+    .page-container {
+        padding: 5px;
+    }
+
+    .center-folded {
+        text-align: center;
+    }
+
+    .left-folded {
+        text-align: left;
+    }
+
+    .right-folded {
+        text-align: right;
+    }
+}

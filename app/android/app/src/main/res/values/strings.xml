@@ -1,0 +1,13 @@
+<resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">MYCceDe6d2RCF_hlq4U9ucROlC6H70d6bab9-cb46-4a34-ae36-57599643d17f</string>
+    <string name="CodePushPublicKey">-----BEGIN PUBLIC KEY-----
+        MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArugfYnPCTU8q60uzJJy+
+        JGtQ67OtusCIvV92WEWjE359gbviIzQVzKw95H6TC2iByjnfvjCAlVm+xXAUFnlW
+        5S3qXNle8zZrSvlbd2sCd13YyWRnOSQLJzEmiViND6gvfJ17t3mQY1q7dAsDxYJP
+        FmEH7R/XsUh3y9J4VCn6hF01cWF2W+XzFajbNNOOJxmLyiFkrPOjHEb7QD0g68BU
+        Yepu9IusWXBc+ZAmR8Ny5+O3OqyrEPe0jwmK+HMJ/BbMbLVpEqTTg1eNnjSBIIuM
+        5thnYy6is23vL79KreZfYhHOwUfpTe+YnItvqUz0v8WOQFeqCy2b054Z22AQi24H
+        sQIDAQAB
+        -----END PUBLIC KEY-----</string>
+    <string name="app_name">eFRS</string>
+</resources>

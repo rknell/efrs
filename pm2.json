@@ -1,0 +1,25 @@
+{
+  "name": "eFRS",
+  "script": "server/app.js",
+  "log_date_format": "YY-MM-DD HH:mm:ss",
+  "env": {
+    "NODE_ENV": "production",
+    "AWS_ACCESS_KEY": "<your-aws-access-key>",
+    "AWS_ACCESS_KEY_ID": "<your-aws-access-key-id>",
+    "AWS_SECRET_ACCESS_KEY": "<your-aws-secret-access-key>",
+    "AWS_SECRET_KEY": "<your-aws-secret-key>",
+    "DB_URI": "<your-mongodb-uri>",
+    "DEBUG_USER": "false",
+    "GOOGLE_APPLICATION_CREDENTIALS": "certs/google-service-account.json",
+    "GOOGLE_STATIC_MAPS_KEY": "<your-google-static-maps-key>",
+    "GOOGLE_STATIC_MAPS_SECRET": "<your-google-static-maps-secret>",
+    "JWT_SECRET": "<set-a-strong-jwt-secret>",
+    "PAGE_SIZE": "100",
+    "SMTP_HOST": "<your-smtp-host>",
+    "SMTP_USER": "<your-smtp-user>",
+    "SMTP_PASS": "<your-smtp-password>",
+    "STORAGE_DIR": "./storage",
+    "STRIPE_PRIVATE_KEY": "<your-stripe-private-key>",
+    "STRIPE_PUBLIC_KEY": "<your-stripe-public-key>"
+  }
+}

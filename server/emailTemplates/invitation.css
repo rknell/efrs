@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Barlow, sans-serif;
+}
+
+.header-bar {
+    text-align: center
+}
+
+.content {
+    padding: 10px;
+}
+
+h1 {
+    font-family: Bitter, sans-serif;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.logo {
+    max-height: 240px;
+    max-width: 80%;
+    padding: 20px;
+}

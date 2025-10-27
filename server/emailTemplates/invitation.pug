@@ -1,0 +1,48 @@
+doctype transitional
+html(xmlns='http://www.w3.org/1999/xhtml')
+    head
+        title #{company.name} eFRS Download
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Bitter|Barlow:400,700")
+        meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+        style(type="text/css")
+            include email.css
+        style(type="text/css")
+            include invitation.css
+    body(itemscope='', itemtype='http://schema.org/EmailMessage')
+        .header-bar(style=`background-color: ${company.styles.secondaryColour}`)
+            img.logo(src=`http://www.efrs.io/api/company/${company.domain}/fullLogo.png`, height="120px", alt="logo")
+        .content
+            h1 eFRS Download
+            p There are a few easy steps to getting eFRS ready for use on your device.
+            p
+                | &bull;
+                span.bold Download&nbsp;
+                | the version of eFRS for your device
+
+                .padding
+                    a(href=`https://www.efrs.io/download/${company.domain}/android`)
+                        img(src="http://www.efrs.io/images/downloadAndroid.png",alt="Android play store download")
+                        div Android play store download
+                .padding
+                    a(href=`https://www.efrs.io/download/${company.domain}/ios`)
+                        img(src="http://www.efrs.io/images/downloadApple.png", alt="Apple app store download")
+                        div Apple app store download
+
+                | &bull;
+                span.bold Configure&nbsp;
+                | eFRS for first time use (this may work automatically)
+
+                p
+                    | If asked for a domain enter "
+                    span.bold #{company.domain}
+                    | "
+
+                | &bull;
+                span.bold Login&nbsp;
+                | and start submitting forms
+
+                p Your credentials are:
+                div Username:&nbsp;
+                    span.bold #{credentials.username}
+                div Temporary password:&nbsp;
+                    span.bold #{credentials.password}

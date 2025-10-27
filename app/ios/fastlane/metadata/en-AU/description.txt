@@ -1,0 +1,1 @@
+Enterprise Field Reporting System (eFRS). Create smart forms and reports for field workers. Easy to use interface that allows you to build in a wide range of logic to handle almost any scenario. Ideal for phones and tablets, and available on multiple platforms, so your entire workforce can use the same application.

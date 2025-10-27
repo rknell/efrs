@@ -1,0 +1,1509 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with a new user 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={false}
+    contentInset={
+      Object {
+        "bottom": 0,
+      }
+    }
+    enableAutomaticScroll={true}
+    enableOnAndroid={false}
+    enableResetScrollToCoords={true}
+    extraHeight={75}
+    extraScrollHeight={0}
+    getScrollResponder={[Function]}
+    handleOnScroll={[Function]}
+    keyboardDismissMode="interactive"
+    keyboardOpeningTime={250}
+    keyboardSpace={0}
+    onScroll={[Function]}
+    resetKeyboardSpace={[Function]}
+    scrollEventThrottle={1}
+    scrollForExtraHeightOnAndroid={[Function]}
+    scrollIntoView={[Function]}
+    scrollToEnd={[Function]}
+    scrollToFocusedInput={[Function]}
+    scrollToPosition={[Function]}
+    showsVerticalScrollIndicator={true}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+    update={[Function]}
+    viewIsInsideTabBar={false}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "height": undefined,
+            "overflow": "hidden",
+            "width": undefined,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "borderBottomWidth": 1,
+              "borderColor": "rgb(217, 217, 217)",
+              "flexDirection": "row",
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "stretch",
+                "color": "rgb(51, 51, 51)",
+                "flex": 1,
+                "fontWeight": "bold",
+                "marginRight": 10,
+                "padding": 10,
+                "paddingLeft": 4,
+                "paddingTop": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            First Name
+          </Text>
+          <View
+            style={
+              Object {
+                "flex": 2,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "rgb(217, 217, 217)",
+                  "borderWidth": 1,
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "padding": 3,
+                }
+              }
+            >
+              <TextInput
+                allowFontScaling={true}
+                autoCapitalize="words"
+                autoGrow={true}
+                clearButtonMode="while-editing"
+                editable={true}
+                globalStyle={
+                  Object {
+                    "disabledText": "rgb(179, 179, 179)",
+                    "errorColour": "red",
+                    "fullLogo": Object {
+                      "testUri": "../../../app/assets/efrsFullBanner.png",
+                    },
+                    "neutralColour": "white",
+                    "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+                    "neutralColourHighlight": "rgb(217, 217, 217)",
+                    "neutralColourIsDark": false,
+                    "neutralColourOffset": "rgb(242, 242, 242)",
+                    "neutralColourText": "rgb(51, 51, 51)",
+                    "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+                    "primaryColour": "dodgerblue",
+                    "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+                    "primaryColourHighlight": "rgb(106, 182, 255)",
+                    "primaryColourIsDark": true,
+                    "primaryColourText": "rgb(255, 255, 255)",
+                    "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+                    "secondaryColour": "#f3f3f3",
+                    "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+                    "secondaryColourHighlight": "rgb(205, 205, 205)",
+                    "secondaryColourIsDark": undefined,
+                    "secondaryColourText": "rgb(39, 39, 39)",
+                    "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+                    "secondaryLogo": Object {
+                      "testUri": "../../../app/assets/icon.png",
+                    },
+                  }
+                }
+                keyboardType="ascii-capable"
+                label="First Name"
+                onChange={[Function]}
+                onChangeText={[Function]}
+                onContentSizeChange={[Function]}
+                rejectResponderTermination={true}
+                selectionColor="dodgerblue"
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "stretch",
+                      "color": "rgb(51, 51, 51)",
+                      "flex": 1,
+                      "fontSize": 16,
+                      "height": undefined,
+                      "padding": 0,
+                      "textAlignVertical": "top",
+                    },
+                  ]
+                }
+                translate={true}
+                underlineColorAndroid="transparent"
+                value="Admin"
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "height": undefined,
+            "overflow": "hidden",
+            "width": undefined,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "borderBottomWidth": 1,
+              "borderColor": "rgb(217, 217, 217)",
+              "flexDirection": "row",
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "stretch",
+                "color": "rgb(51, 51, 51)",
+                "flex": 1,
+                "fontWeight": "bold",
+                "marginRight": 10,
+                "padding": 10,
+                "paddingLeft": 4,
+                "paddingTop": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            Last Name
+          </Text>
+          <View
+            style={
+              Object {
+                "flex": 2,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "rgb(217, 217, 217)",
+                  "borderWidth": 1,
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "padding": 3,
+                }
+              }
+            >
+              <TextInput
+                allowFontScaling={true}
+                autoCapitalize="words"
+                autoGrow={true}
+                clearButtonMode="while-editing"
+                editable={true}
+                globalStyle={
+                  Object {
+                    "disabledText": "rgb(179, 179, 179)",
+                    "errorColour": "red",
+                    "fullLogo": Object {
+                      "testUri": "../../../app/assets/efrsFullBanner.png",
+                    },
+                    "neutralColour": "white",
+                    "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+                    "neutralColourHighlight": "rgb(217, 217, 217)",
+                    "neutralColourIsDark": false,
+                    "neutralColourOffset": "rgb(242, 242, 242)",
+                    "neutralColourText": "rgb(51, 51, 51)",
+                    "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+                    "primaryColour": "dodgerblue",
+                    "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+                    "primaryColourHighlight": "rgb(106, 182, 255)",
+                    "primaryColourIsDark": true,
+                    "primaryColourText": "rgb(255, 255, 255)",
+                    "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+                    "secondaryColour": "#f3f3f3",
+                    "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+                    "secondaryColourHighlight": "rgb(205, 205, 205)",
+                    "secondaryColourIsDark": undefined,
+                    "secondaryColourText": "rgb(39, 39, 39)",
+                    "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+                    "secondaryLogo": Object {
+                      "testUri": "../../../app/assets/icon.png",
+                    },
+                  }
+                }
+                keyboardType="ascii-capable"
+                label="Last Name"
+                onChange={[Function]}
+                onChangeText={[Function]}
+                onContentSizeChange={[Function]}
+                rejectResponderTermination={true}
+                selectionColor="dodgerblue"
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "stretch",
+                      "color": "rgb(51, 51, 51)",
+                      "flex": 1,
+                      "fontSize": 16,
+                      "height": undefined,
+                      "padding": 0,
+                      "textAlignVertical": "top",
+                    },
+                  ]
+                }
+                translate={true}
+                underlineColorAndroid="transparent"
+                value="User"
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "height": undefined,
+            "overflow": "hidden",
+            "width": undefined,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "borderBottomWidth": 1,
+              "borderColor": "rgb(217, 217, 217)",
+              "flexDirection": "row",
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "stretch",
+                "color": "rgb(51, 51, 51)",
+                "flex": 1,
+                "fontWeight": "bold",
+                "marginRight": 10,
+                "padding": 10,
+                "paddingLeft": 4,
+                "paddingTop": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            Username
+          </Text>
+          <View
+            style={
+              Object {
+                "flex": 2,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "rgb(217, 217, 217)",
+                  "borderWidth": 1,
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "padding": 3,
+                }
+              }
+            >
+              <TextInput
+                allowFontScaling={true}
+                autoCapitalize="none"
+                autoCorrect={false}
+                autoGrow={true}
+                clearButtonMode="while-editing"
+                editable={true}
+                globalStyle={
+                  Object {
+                    "disabledText": "rgb(179, 179, 179)",
+                    "errorColour": "red",
+                    "fullLogo": Object {
+                      "testUri": "../../../app/assets/efrsFullBanner.png",
+                    },
+                    "neutralColour": "white",
+                    "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+                    "neutralColourHighlight": "rgb(217, 217, 217)",
+                    "neutralColourIsDark": false,
+                    "neutralColourOffset": "rgb(242, 242, 242)",
+                    "neutralColourText": "rgb(51, 51, 51)",
+                    "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+                    "primaryColour": "dodgerblue",
+                    "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+                    "primaryColourHighlight": "rgb(106, 182, 255)",
+                    "primaryColourIsDark": true,
+                    "primaryColourText": "rgb(255, 255, 255)",
+                    "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+                    "secondaryColour": "#f3f3f3",
+                    "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+                    "secondaryColourHighlight": "rgb(205, 205, 205)",
+                    "secondaryColourIsDark": undefined,
+                    "secondaryColourText": "rgb(39, 39, 39)",
+                    "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+                    "secondaryLogo": Object {
+                      "testUri": "../../../app/assets/icon.png",
+                    },
+                  }
+                }
+                keyboardType="email-address"
+                label="Username"
+                onChange={[Function]}
+                onChangeText={[Function]}
+                onContentSizeChange={[Function]}
+                rejectResponderTermination={true}
+                selectionColor="dodgerblue"
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "stretch",
+                      "color": "rgb(51, 51, 51)",
+                      "flex": 1,
+                      "fontSize": 16,
+                      "height": undefined,
+                      "padding": 0,
+                      "textAlignVertical": "top",
+                    },
+                  ]
+                }
+                translate={true}
+                underlineColorAndroid="transparent"
+                value="user12@example.com"
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "height": undefined,
+            "overflow": "hidden",
+            "width": undefined,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "borderBottomWidth": 1,
+              "borderColor": "rgb(217, 217, 217)",
+              "flexDirection": "row",
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "stretch",
+                "color": "rgb(51, 51, 51)",
+                "flex": 1,
+                "fontWeight": "bold",
+                "marginRight": 10,
+                "padding": 10,
+                "paddingLeft": 4,
+                "paddingTop": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            Username is email
+          </Text>
+          <View
+            style={
+              Object {
+                "flex": 2,
+              }
+            }
+          >
+            <RCTSwitch
+              accessibilityRole="button"
+              onChange={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "height": 31,
+                  "width": 51,
+                }
+              }
+              value={true}
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(30, 144, 255, 0.3)",
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "minWidth": 30,
+                  "padding": 6,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "rgb(255, 255, 255)",
+                    "fontSize": 18,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "rgb(255, 255, 255)",
+                  "fontSize": 18,
+                }
+              }
+            >
+               
+              Reset password
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "height": undefined,
+              "overflow": "hidden",
+              "width": undefined,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "borderBottomWidth": 1,
+                "borderColor": "rgb(217, 217, 217)",
+                "flexDirection": "row",
+                "padding": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "alignSelf": "stretch",
+                  "color": "rgb(51, 51, 51)",
+                  "flex": 1,
+                  "fontWeight": "bold",
+                  "marginRight": 10,
+                  "padding": 10,
+                  "paddingLeft": 4,
+                  "paddingTop": 10,
+                  "textAlign": "right",
+                }
+              }
+            >
+              Supervisor
+            </Text>
+            <View
+              style={
+                Object {
+                  "flex": 2,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  isTVSelectable={true}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "flex-start",
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "backgroundColor": "dodgerblue",
+                          "borderRadius": 8,
+                          "flex": -1,
+                          "marginBottom": 10,
+                          "marginRight": 10,
+                          "padding": 10,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "rgb(255, 255, 255)",
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        None selected
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "height": undefined,
+              "overflow": "hidden",
+              "width": undefined,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "borderBottomWidth": 1,
+                "borderColor": "rgb(217, 217, 217)",
+                "flexDirection": "row",
+                "padding": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "alignSelf": "stretch",
+                  "color": "rgb(51, 51, 51)",
+                  "flex": 1,
+                  "fontWeight": "bold",
+                  "marginRight": 10,
+                  "padding": 10,
+                  "paddingLeft": 4,
+                  "paddingTop": 10,
+                  "textAlign": "right",
+                }
+              }
+            >
+              User groups
+            </Text>
+            <View
+              style={
+                Object {
+                  "flex": 2,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  isTVSelectable={true}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "flex-start",
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "backgroundColor": "dodgerblue",
+                          "borderRadius": 8,
+                          "flex": -1,
+                          "marginBottom": 10,
+                          "marginRight": 10,
+                          "padding": 10,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "rgb(255, 255, 255)",
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        None selected
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`renders correctly with a setup user 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={false}
+    contentInset={
+      Object {
+        "bottom": 0,
+      }
+    }
+    enableAutomaticScroll={true}
+    enableOnAndroid={false}
+    enableResetScrollToCoords={true}
+    extraHeight={75}
+    extraScrollHeight={0}
+    getScrollResponder={[Function]}
+    handleOnScroll={[Function]}
+    keyboardDismissMode="interactive"
+    keyboardOpeningTime={250}
+    keyboardSpace={0}
+    onScroll={[Function]}
+    resetKeyboardSpace={[Function]}
+    scrollEventThrottle={1}
+    scrollForExtraHeightOnAndroid={[Function]}
+    scrollIntoView={[Function]}
+    scrollToEnd={[Function]}
+    scrollToFocusedInput={[Function]}
+    scrollToPosition={[Function]}
+    showsVerticalScrollIndicator={true}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+    update={[Function]}
+    viewIsInsideTabBar={false}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "height": undefined,
+            "overflow": "hidden",
+            "width": undefined,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "borderBottomWidth": 1,
+              "borderColor": "rgb(217, 217, 217)",
+              "flexDirection": "row",
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "stretch",
+                "color": "rgb(51, 51, 51)",
+                "flex": 1,
+                "fontWeight": "bold",
+                "marginRight": 10,
+                "padding": 10,
+                "paddingLeft": 4,
+                "paddingTop": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            First Name
+          </Text>
+          <View
+            style={
+              Object {
+                "flex": 2,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "rgb(217, 217, 217)",
+                  "borderWidth": 1,
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "padding": 3,
+                }
+              }
+            >
+              <TextInput
+                allowFontScaling={true}
+                autoCapitalize="words"
+                autoGrow={true}
+                clearButtonMode="while-editing"
+                editable={true}
+                globalStyle={
+                  Object {
+                    "disabledText": "rgb(179, 179, 179)",
+                    "errorColour": "red",
+                    "fullLogo": Object {
+                      "testUri": "../../../app/assets/efrsFullBanner.png",
+                    },
+                    "neutralColour": "white",
+                    "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+                    "neutralColourHighlight": "rgb(217, 217, 217)",
+                    "neutralColourIsDark": false,
+                    "neutralColourOffset": "rgb(242, 242, 242)",
+                    "neutralColourText": "rgb(51, 51, 51)",
+                    "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+                    "primaryColour": "dodgerblue",
+                    "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+                    "primaryColourHighlight": "rgb(106, 182, 255)",
+                    "primaryColourIsDark": true,
+                    "primaryColourText": "rgb(255, 255, 255)",
+                    "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+                    "secondaryColour": "#f3f3f3",
+                    "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+                    "secondaryColourHighlight": "rgb(205, 205, 205)",
+                    "secondaryColourIsDark": undefined,
+                    "secondaryColourText": "rgb(39, 39, 39)",
+                    "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+                    "secondaryLogo": Object {
+                      "testUri": "../../../app/assets/icon.png",
+                    },
+                  }
+                }
+                keyboardType="ascii-capable"
+                label="First Name"
+                onChange={[Function]}
+                onChangeText={[Function]}
+                onContentSizeChange={[Function]}
+                rejectResponderTermination={true}
+                selectionColor="dodgerblue"
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "stretch",
+                      "color": "rgb(51, 51, 51)",
+                      "flex": 1,
+                      "fontSize": 16,
+                      "height": undefined,
+                      "padding": 0,
+                      "textAlignVertical": "top",
+                    },
+                  ]
+                }
+                translate={true}
+                underlineColorAndroid="transparent"
+                value="Admin"
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "height": undefined,
+            "overflow": "hidden",
+            "width": undefined,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "borderBottomWidth": 1,
+              "borderColor": "rgb(217, 217, 217)",
+              "flexDirection": "row",
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "stretch",
+                "color": "rgb(51, 51, 51)",
+                "flex": 1,
+                "fontWeight": "bold",
+                "marginRight": 10,
+                "padding": 10,
+                "paddingLeft": 4,
+                "paddingTop": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            Last Name
+          </Text>
+          <View
+            style={
+              Object {
+                "flex": 2,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "rgb(217, 217, 217)",
+                  "borderWidth": 1,
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "padding": 3,
+                }
+              }
+            >
+              <TextInput
+                allowFontScaling={true}
+                autoCapitalize="words"
+                autoGrow={true}
+                clearButtonMode="while-editing"
+                editable={true}
+                globalStyle={
+                  Object {
+                    "disabledText": "rgb(179, 179, 179)",
+                    "errorColour": "red",
+                    "fullLogo": Object {
+                      "testUri": "../../../app/assets/efrsFullBanner.png",
+                    },
+                    "neutralColour": "white",
+                    "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+                    "neutralColourHighlight": "rgb(217, 217, 217)",
+                    "neutralColourIsDark": false,
+                    "neutralColourOffset": "rgb(242, 242, 242)",
+                    "neutralColourText": "rgb(51, 51, 51)",
+                    "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+                    "primaryColour": "dodgerblue",
+                    "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+                    "primaryColourHighlight": "rgb(106, 182, 255)",
+                    "primaryColourIsDark": true,
+                    "primaryColourText": "rgb(255, 255, 255)",
+                    "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+                    "secondaryColour": "#f3f3f3",
+                    "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+                    "secondaryColourHighlight": "rgb(205, 205, 205)",
+                    "secondaryColourIsDark": undefined,
+                    "secondaryColourText": "rgb(39, 39, 39)",
+                    "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+                    "secondaryLogo": Object {
+                      "testUri": "../../../app/assets/icon.png",
+                    },
+                  }
+                }
+                keyboardType="ascii-capable"
+                label="Last Name"
+                onChange={[Function]}
+                onChangeText={[Function]}
+                onContentSizeChange={[Function]}
+                rejectResponderTermination={true}
+                selectionColor="dodgerblue"
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "stretch",
+                      "color": "rgb(51, 51, 51)",
+                      "flex": 1,
+                      "fontSize": 16,
+                      "height": undefined,
+                      "padding": 0,
+                      "textAlignVertical": "top",
+                    },
+                  ]
+                }
+                translate={true}
+                underlineColorAndroid="transparent"
+                value="User"
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "height": undefined,
+            "overflow": "hidden",
+            "width": undefined,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "borderBottomWidth": 1,
+              "borderColor": "rgb(217, 217, 217)",
+              "flexDirection": "row",
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "stretch",
+                "color": "rgb(51, 51, 51)",
+                "flex": 1,
+                "fontWeight": "bold",
+                "marginRight": 10,
+                "padding": 10,
+                "paddingLeft": 4,
+                "paddingTop": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            Username
+          </Text>
+          <View
+            style={
+              Object {
+                "flex": 2,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "rgb(217, 217, 217)",
+                  "borderWidth": 1,
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "padding": 3,
+                }
+              }
+            >
+              <TextInput
+                allowFontScaling={true}
+                autoCapitalize="none"
+                autoCorrect={false}
+                autoGrow={true}
+                clearButtonMode="while-editing"
+                editable={true}
+                globalStyle={
+                  Object {
+                    "disabledText": "rgb(179, 179, 179)",
+                    "errorColour": "red",
+                    "fullLogo": Object {
+                      "testUri": "../../../app/assets/efrsFullBanner.png",
+                    },
+                    "neutralColour": "white",
+                    "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+                    "neutralColourHighlight": "rgb(217, 217, 217)",
+                    "neutralColourIsDark": false,
+                    "neutralColourOffset": "rgb(242, 242, 242)",
+                    "neutralColourText": "rgb(51, 51, 51)",
+                    "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+                    "primaryColour": "dodgerblue",
+                    "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+                    "primaryColourHighlight": "rgb(106, 182, 255)",
+                    "primaryColourIsDark": true,
+                    "primaryColourText": "rgb(255, 255, 255)",
+                    "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+                    "secondaryColour": "#f3f3f3",
+                    "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+                    "secondaryColourHighlight": "rgb(205, 205, 205)",
+                    "secondaryColourIsDark": undefined,
+                    "secondaryColourText": "rgb(39, 39, 39)",
+                    "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+                    "secondaryLogo": Object {
+                      "testUri": "../../../app/assets/icon.png",
+                    },
+                  }
+                }
+                keyboardType="email-address"
+                label="Username"
+                onChange={[Function]}
+                onChangeText={[Function]}
+                onContentSizeChange={[Function]}
+                rejectResponderTermination={true}
+                selectionColor="dodgerblue"
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "stretch",
+                      "color": "rgb(51, 51, 51)",
+                      "flex": 1,
+                      "fontSize": 16,
+                      "height": undefined,
+                      "padding": 0,
+                      "textAlignVertical": "top",
+                    },
+                  ]
+                }
+                translate={true}
+                underlineColorAndroid="transparent"
+                value="user12@example.com"
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "height": undefined,
+            "overflow": "hidden",
+            "width": undefined,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "borderBottomWidth": 1,
+              "borderColor": "rgb(217, 217, 217)",
+              "flexDirection": "row",
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "stretch",
+                "color": "rgb(51, 51, 51)",
+                "flex": 1,
+                "fontWeight": "bold",
+                "marginRight": 10,
+                "padding": 10,
+                "paddingLeft": 4,
+                "paddingTop": 10,
+                "textAlign": "right",
+              }
+            }
+          >
+            Username is email
+          </Text>
+          <View
+            style={
+              Object {
+                "flex": 2,
+              }
+            }
+          >
+            <RCTSwitch
+              accessibilityRole="button"
+              onChange={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "height": 31,
+                  "width": 51,
+                }
+              }
+              value={true}
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(30, 144, 255, 0.3)",
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "minWidth": 30,
+                  "padding": 6,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "rgb(255, 255, 255)",
+                    "fontSize": 18,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "rgb(255, 255, 255)",
+                  "fontSize": 18,
+                }
+              }
+            >
+               
+              Reset password
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "height": undefined,
+              "overflow": "hidden",
+              "width": undefined,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "borderBottomWidth": 1,
+                "borderColor": "rgb(217, 217, 217)",
+                "flexDirection": "row",
+                "padding": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "alignSelf": "stretch",
+                  "color": "rgb(51, 51, 51)",
+                  "flex": 1,
+                  "fontWeight": "bold",
+                  "marginRight": 10,
+                  "padding": 10,
+                  "paddingLeft": 4,
+                  "paddingTop": 10,
+                  "textAlign": "right",
+                }
+              }
+            >
+              Supervisor
+            </Text>
+            <View
+              style={
+                Object {
+                  "flex": 2,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  isTVSelectable={true}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "flex-start",
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "backgroundColor": "dodgerblue",
+                          "borderRadius": 8,
+                          "flex": -1,
+                          "marginBottom": 10,
+                          "marginRight": 10,
+                          "padding": 10,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "rgb(255, 255, 255)",
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        None selected
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "height": undefined,
+              "overflow": "hidden",
+              "width": undefined,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "borderBottomWidth": 1,
+                "borderColor": "rgb(217, 217, 217)",
+                "flexDirection": "row",
+                "padding": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "alignSelf": "stretch",
+                  "color": "rgb(51, 51, 51)",
+                  "flex": 1,
+                  "fontWeight": "bold",
+                  "marginRight": 10,
+                  "padding": 10,
+                  "paddingLeft": 4,
+                  "paddingTop": 10,
+                  "textAlign": "right",
+                }
+              }
+            >
+              User groups
+            </Text>
+            <View
+              style={
+                Object {
+                  "flex": 2,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  isTVSelectable={true}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "flex-start",
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "backgroundColor": "dodgerblue",
+                          "borderRadius": 8,
+                          "flex": -1,
+                          "marginBottom": 10,
+                          "marginRight": 10,
+                          "padding": 10,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "rgb(255, 255, 255)",
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        None selected
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

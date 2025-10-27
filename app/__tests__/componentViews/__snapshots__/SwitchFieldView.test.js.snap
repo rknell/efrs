@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should be able to hide 1`] = `
+<FieldBase
+  globalStyle={Object {}}
+  hidden={true}
+>
+  <Switch />
+</FieldBase>
+`;
+
+exports[`should render correctly in edit mode 1`] = `
+<FieldBase
+  globalStyle={Object {}}
+  hidden={false}
+>
+  <Switch />
+</FieldBase>
+`;
+
+exports[`should render with no props 1`] = `
+<FieldBase
+  globalStyle={Object {}}
+>
+  <Switch />
+</FieldBase>
+`;
+
+exports[`should render with settings 1`] = `
+<FieldBase
+  globalStyle={Object {}}
+  label="TEST"
+>
+  <Switch />
+</FieldBase>
+`;
+
+exports[`should take a globalstyle object and apply it 1`] = `
+<FieldBase
+  globalStyle={
+    Object {
+      "primaryColour": "black",
+    }
+  }
+>
+  <Switch
+    trackColor="black"
+  />
+</FieldBase>
+`;
+
+exports[`should take a non settings label 1`] = `
+<FieldBase
+  globalStyle={Object {}}
+  label="TEST LABEL"
+>
+  <Switch />
+</FieldBase>
+`;

@@ -1,0 +1,510 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<EditModeWrapper
+  data={
+    Object {
+      "settings": Array [
+        Object {
+          "extraProps": Object {},
+          "fieldType": "TextFieldView",
+          "label": "Label",
+          "value": "",
+        },
+        Object {
+          "extraProps": Object {
+            "settings": Object {
+              "Auto Capitalize": "none",
+              "Multi Line": true,
+            },
+          },
+          "fieldType": "TextFieldView",
+          "label": "Calculation",
+          "value": "",
+        },
+        Object {
+          "extraProps": Object {
+            "options": Array [
+              Object {
+                "label": "Yes",
+                "value": true,
+              },
+              Object {
+                "label": "No",
+                "value": false,
+              },
+            ],
+          },
+          "fieldType": "QuickPickView",
+          "label": "Hidden",
+          "value": false,
+        },
+        Object {
+          "extraProps": Object {
+            "options": Array [
+              Object {
+                "label": "Yes",
+                "value": true,
+              },
+              Object {
+                "label": "No",
+                "value": false,
+              },
+            ],
+          },
+          "fieldType": "QuickPickView",
+          "label": "Report When Hidden",
+          "value": false,
+        },
+      ],
+      "values": Object {
+        "default": "",
+      },
+    }
+  }
+  formController={
+    MockFormController {
+      "model": Object {
+        "disableScroll": true,
+      },
+    }
+  }
+  onPressEdit={[Function]}
+>
+  <FieldBase
+    globalStyle={
+      Object {
+        "disabledText": "rgb(179, 179, 179)",
+        "errorColour": "red",
+        "fullLogo": Object {
+          "testUri": "../../../app/assets/efrsFullBanner.png",
+        },
+        "neutralColour": "white",
+        "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+        "neutralColourHighlight": "rgb(217, 217, 217)",
+        "neutralColourIsDark": false,
+        "neutralColourOffset": "rgb(242, 242, 242)",
+        "neutralColourText": "rgb(51, 51, 51)",
+        "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+        "primaryColour": "dodgerblue",
+        "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+        "primaryColourHighlight": "rgb(106, 182, 255)",
+        "primaryColourIsDark": true,
+        "primaryColourText": "rgb(255, 255, 255)",
+        "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+        "secondaryColour": "#f3f3f3",
+        "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+        "secondaryColourHighlight": "rgb(205, 205, 205)",
+        "secondaryColourIsDark": undefined,
+        "secondaryColourText": "rgb(39, 39, 39)",
+        "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+        "secondaryLogo": Object {
+          "testUri": "../../../app/assets/icon.png",
+        },
+      }
+    }
+    hidden={false}
+    label=""
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+          }
+        }
+      />
+    </View>
+  </FieldBase>
+</EditModeWrapper>
+`;
+
+exports[`should match snapshot with some data 1`] = `
+<EditModeWrapper
+  data={
+    Object {
+      "settings": Array [
+        Object {
+          "extraProps": Object {},
+          "fieldType": "TextFieldView",
+          "label": "Label",
+          "value": "",
+        },
+        Object {
+          "extraProps": Object {
+            "settings": Object {
+              "Auto Capitalize": "none",
+              "Multi Line": true,
+            },
+          },
+          "fieldType": "TextFieldView",
+          "label": "Calculation",
+          "value": "",
+        },
+        Object {
+          "extraProps": Object {
+            "options": Array [
+              Object {
+                "label": "Yes",
+                "value": true,
+              },
+              Object {
+                "label": "No",
+                "value": false,
+              },
+            ],
+          },
+          "fieldType": "QuickPickView",
+          "label": "Hidden",
+          "value": false,
+        },
+        Object {
+          "extraProps": Object {
+            "options": Array [
+              Object {
+                "label": "Yes",
+                "value": true,
+              },
+              Object {
+                "label": "No",
+                "value": false,
+              },
+            ],
+          },
+          "fieldType": "QuickPickView",
+          "label": "Report When Hidden",
+          "value": false,
+        },
+      ],
+      "values": Object {
+        "default": "test",
+      },
+    }
+  }
+  formController={
+    MockFormController {
+      "model": Object {
+        "disableScroll": true,
+      },
+    }
+  }
+  onPressEdit={[Function]}
+>
+  <FieldBase
+    globalStyle={
+      Object {
+        "disabledText": "rgb(179, 179, 179)",
+        "errorColour": "red",
+        "fullLogo": Object {
+          "testUri": "../../../app/assets/efrsFullBanner.png",
+        },
+        "neutralColour": "white",
+        "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+        "neutralColourHighlight": "rgb(217, 217, 217)",
+        "neutralColourIsDark": false,
+        "neutralColourOffset": "rgb(242, 242, 242)",
+        "neutralColourText": "rgb(51, 51, 51)",
+        "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+        "primaryColour": "dodgerblue",
+        "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+        "primaryColourHighlight": "rgb(106, 182, 255)",
+        "primaryColourIsDark": true,
+        "primaryColourText": "rgb(255, 255, 255)",
+        "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+        "secondaryColour": "#f3f3f3",
+        "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+        "secondaryColourHighlight": "rgb(205, 205, 205)",
+        "secondaryColourIsDark": undefined,
+        "secondaryColourText": "rgb(39, 39, 39)",
+        "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+        "secondaryLogo": Object {
+          "testUri": "../../../app/assets/icon.png",
+        },
+      }
+    }
+    hidden={false}
+    label=""
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+          }
+        }
+      >
+        test
+      </Text>
+    </View>
+  </FieldBase>
+</EditModeWrapper>
+`;
+
+exports[`should match snapshot with some data 2`] = `
+<EditModeWrapper
+  data={
+    Object {
+      "settings": Array [
+        Object {
+          "extraProps": Object {},
+          "fieldType": "TextFieldView",
+          "label": "Label",
+          "value": "",
+        },
+        Object {
+          "extraProps": Object {
+            "settings": Object {
+              "Auto Capitalize": "none",
+              "Multi Line": true,
+            },
+          },
+          "fieldType": "TextFieldView",
+          "label": "Calculation",
+          "value": "",
+        },
+        Object {
+          "extraProps": Object {
+            "options": Array [
+              Object {
+                "label": "Yes",
+                "value": true,
+              },
+              Object {
+                "label": "No",
+                "value": false,
+              },
+            ],
+          },
+          "fieldType": "QuickPickView",
+          "label": "Hidden",
+          "value": false,
+        },
+        Object {
+          "extraProps": Object {
+            "options": Array [
+              Object {
+                "label": "Yes",
+                "value": true,
+              },
+              Object {
+                "label": "No",
+                "value": false,
+              },
+            ],
+          },
+          "fieldType": "QuickPickView",
+          "label": "Report When Hidden",
+          "value": false,
+        },
+      ],
+      "values": Object {
+        "default": "undefined",
+      },
+    }
+  }
+  formController={
+    MockFormController {
+      "model": Object {
+        "disableScroll": true,
+      },
+    }
+  }
+  onPressEdit={[Function]}
+>
+  <FieldBase
+    globalStyle={
+      Object {
+        "disabledText": "rgb(179, 179, 179)",
+        "errorColour": "red",
+        "fullLogo": Object {
+          "testUri": "../../../app/assets/efrsFullBanner.png",
+        },
+        "neutralColour": "white",
+        "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+        "neutralColourHighlight": "rgb(217, 217, 217)",
+        "neutralColourIsDark": false,
+        "neutralColourOffset": "rgb(242, 242, 242)",
+        "neutralColourText": "rgb(51, 51, 51)",
+        "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+        "primaryColour": "dodgerblue",
+        "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+        "primaryColourHighlight": "rgb(106, 182, 255)",
+        "primaryColourIsDark": true,
+        "primaryColourText": "rgb(255, 255, 255)",
+        "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+        "secondaryColour": "#f3f3f3",
+        "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+        "secondaryColourHighlight": "rgb(205, 205, 205)",
+        "secondaryColourIsDark": undefined,
+        "secondaryColourText": "rgb(39, 39, 39)",
+        "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+        "secondaryLogo": Object {
+          "testUri": "../../../app/assets/icon.png",
+        },
+      }
+    }
+    hidden={false}
+    label=""
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+          }
+        }
+      />
+    </View>
+  </FieldBase>
+</EditModeWrapper>
+`;
+
+exports[`should render edit mode 1`] = `
+<EditModeWrapper
+  data={
+    Object {
+      "settings": Array [
+        Object {
+          "extraProps": Object {},
+          "fieldType": "TextFieldView",
+          "label": "Label",
+          "value": "",
+        },
+        Object {
+          "extraProps": Object {
+            "settings": Object {
+              "Auto Capitalize": "none",
+              "Multi Line": true,
+            },
+          },
+          "fieldType": "TextFieldView",
+          "label": "Calculation",
+          "value": "",
+        },
+        Object {
+          "extraProps": Object {
+            "options": Array [
+              Object {
+                "label": "Yes",
+                "value": true,
+              },
+              Object {
+                "label": "No",
+                "value": false,
+              },
+            ],
+          },
+          "fieldType": "QuickPickView",
+          "label": "Hidden",
+          "value": false,
+        },
+        Object {
+          "extraProps": Object {
+            "options": Array [
+              Object {
+                "label": "Yes",
+                "value": true,
+              },
+              Object {
+                "label": "No",
+                "value": false,
+              },
+            ],
+          },
+          "fieldType": "QuickPickView",
+          "label": "Report When Hidden",
+          "value": false,
+        },
+      ],
+      "values": Object {
+        "default": "test",
+      },
+    }
+  }
+  editMode={true}
+  formController={
+    MockFormController {
+      "model": Object {
+        "disableScroll": true,
+      },
+    }
+  }
+  onPressEdit={[Function]}
+>
+  <FieldBase
+    globalStyle={
+      Object {
+        "disabledText": "rgb(179, 179, 179)",
+        "errorColour": "red",
+        "fullLogo": Object {
+          "testUri": "../../../app/assets/efrsFullBanner.png",
+        },
+        "neutralColour": "white",
+        "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+        "neutralColourHighlight": "rgb(217, 217, 217)",
+        "neutralColourIsDark": false,
+        "neutralColourOffset": "rgb(242, 242, 242)",
+        "neutralColourText": "rgb(51, 51, 51)",
+        "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+        "primaryColour": "dodgerblue",
+        "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+        "primaryColourHighlight": "rgb(106, 182, 255)",
+        "primaryColourIsDark": true,
+        "primaryColourText": "rgb(255, 255, 255)",
+        "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+        "secondaryColour": "#f3f3f3",
+        "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+        "secondaryColourHighlight": "rgb(205, 205, 205)",
+        "secondaryColourIsDark": undefined,
+        "secondaryColourText": "rgb(39, 39, 39)",
+        "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+        "secondaryLogo": Object {
+          "testUri": "../../../app/assets/icon.png",
+        },
+      }
+    }
+    hidden={false}
+    label=""
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+          }
+        }
+      >
+        test
+      </Text>
+    </View>
+  </FieldBase>
+</EditModeWrapper>
+`;

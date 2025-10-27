@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `""`;
+
+exports[`should show a busy indicator 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "rgba(0,0,0,0.5)",
+      "bottom": 0,
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "dodgerblue",
+        "borderRadius": 10,
+        "height": 100,
+        "justifyContent": "center",
+        "width": 100,
+      }
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color="rgb(255, 255, 255)"
+      hidesWhenStopped={true}
+      size="large"
+    />
+  </View>
+</View>
+`;

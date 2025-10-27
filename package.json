@@ -1,0 +1,118 @@
+{
+  "name": "efrs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "standard --parser=babel-eslint --preset=react-native && mocha server/tests/**/*.js --exit && cd app && yarn test --silent",
+    "test:dev": "mocha server/tests/**/*.js --exit",
+    "coverage": "nyc --reporter=html --reporter=text mocha server/tests/**/*.js --exit",
+    "lintfix": "standard --verbose --fix --parser=babel-eslint --preset=react-native | snazzy",
+    "deploy": "cd app/android && fastlane android deploy && cd .. && cd ios && fastlane ios beta"
+  },
+  "dependencies": {
+    "@google-cloud/translate": "^1.1.0",
+    "apn": "2.1.5",
+    "async": "^2.6.0",
+    "async-json": "^0.0.2",
+    "aws-sdk": "^2.212.1",
+    "base-64": "^0.1.0",
+    "bcrypt": "^3.0.6",
+    "bluebird": "^3.5.0",
+    "body-parser": "1.18.2",
+    "compression": "^1.4.2",
+    "concat-stream": "^1.6.2",
+    "connect-mongo": "2.0.0",
+    "cookie-parser": "1.4.3",
+    "cors": "^2.5.2",
+    "express": "~4.16.2",
+    "express-force-ssl": "^0.3.2",
+    "express-jwt": "^5.3.0",
+    "express-list-routes": "^0.1.4",
+    "express-session": "^1.9.3",
+    "firebase-admin": "^4.2.1",
+    "geolib": "^2.0.20",
+    "helmet": "3.9.0",
+    "jsonwebtoken": "^8.1.0",
+    "juice": "^4.2.2",
+    "lodash": "4.17.4",
+    "lz-string": "^1.4.4",
+    "mime": "^2.0.3",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.20.0",
+    "moment-timezone": "^0.5.14",
+    "mongo-s3": "^1.1.0",
+    "mongodb": "^3.0.1",
+    "mongoose": "^4.6.5",
+    "mongoose-simpletimestamps": "^1.0.0",
+    "mongoose-ttl": "^0.0.3",
+    "morgan": "1.9.0",
+    "multer": "^1.4.1",
+    "node-gcm": "^0.14.9",
+    "nodemailer": "^4.4.1",
+    "pinjs": "git+https://github.com/rknell/pinjs.git",
+    "pug": "^2.0.3",
+    "q": "^1.4.1",
+    "rainbow-console": "0.0.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "rrule": "^2.2.9",
+    "sendgrid": "^5.0.0",
+    "socket.io": "^2.0.4",
+    "statistical-methods": "^1.0.4",
+    "stripe": "^5.6.1",
+    "tracer": "0.8.11",
+    "url2pdf": "^0.4.7",
+    "walk": "^2.3.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.1",
+    "chai": "^4.1.2",
+    "eslint": "^5.10.0",
+    "jwt-decode": "^2.2.0",
+    "mocha": "^4.1.0",
+    "nyc": "^11.3.0",
+    "pre-commit": "^1.2.2",
+    "snazzy": "^8.0.0",
+    "standard": "^12.0.1"
+  },
+  "description": "--- *Build a rapid API by simply adding files. Uses Express and Mongoose.*",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "eFRS Contributors",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/efrs/efrs/issues"
+  },
+  "homepage": "https://github.com/efrs/efrs",
+  "standard": {
+    "ignore": [
+      "server/public/*",
+      "server/public/**/*",
+      "server/tests/fixtures/**/*",
+      "server/tests/fixtures/*"
+    ],
+    "globals": [
+      "host",
+      "io",
+      "jest",
+      "expect",
+      "Response",
+      "Headers",
+      "Request",
+      "__DEV__",
+      "fetch",
+      "it",
+      "describe",
+      "before",
+      "after"
+    ]
+  },
+  "precommit": {
+    "run": [
+      "test"
+    ]
+  }
+}

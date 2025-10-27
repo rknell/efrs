@@ -1,0 +1,581 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hasnt changed 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "dodgerblue",
+          "borderBottomColor": "rgb(106, 182, 255)",
+          "borderBottomWidth": 0,
+          "elevation": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 22,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "padding": 6,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "rgb(255, 255, 255)",
+                    "fontSize": 18,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <Text
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "rgb(255, 255, 255)",
+              "flex": 1,
+              "fontSize": 20,
+              "fontWeight": "300",
+            }
+          }
+        >
+          User Management
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#f3f3f3",
+          "borderBottomWidth": 0,
+          "borderColor": "rgb(205, 205, 205)",
+          "borderTopWidth": 0,
+          "flexDirection": "row",
+          "paddingLeft": 16,
+          "paddingRight": 16,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginRight": 10,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "borderColor": "rgba(255,255,255,0.3)",
+                "borderRightWidth": 1,
+                "marginRight": 10,
+                "padding": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "rgb(39, 39, 39)",
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "FontAwesome",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+               
+              Add user
+               
+            </Text>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "borderColor": "rgba(255,255,255,0.3)",
+                "borderRightWidth": 0,
+                "marginRight": 0,
+                "padding": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "rgb(39, 39, 39)",
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "FontAwesome",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+               
+              Manage Groups
+               
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    data={Array []}
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={20}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={40}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    refreshControl={
+      <RefreshControlMock
+        onRefresh={[Function]}
+        refreshing={false}
+      />
+    }
+    renderItem={[Function]}
+    renderSectionHeader={[Function]}
+    scrollEventThrottle={50}
+    sections={Array []}
+    stickyHeaderIndices={Array []}
+    stickySectionHeadersEnabled={true}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  >
+    <RCTRefreshControl />
+    <View />
+  </RCTScrollView>
+</View>
+`;
+
+exports[`renders a UserDetailPage (new user) 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <NavBar
+    handlePop={[Function]}
+    isMenuDisabled={true}
+    pageActions={
+      Array [
+        Object {
+          "icon": "save",
+          "label": "Save Changes",
+          "onPress": [Function],
+        },
+      ]
+    }
+    title="User Details"
+  />
+  <UserDetailView
+    onValidationChanged={[Function]}
+    user={
+      Object {
+        "__v": 0,
+        "_id": "5a36fa6aac023a4b3bae2f22",
+        "company": "5a36fa6aac023a4b3bae2f20",
+        "createdAt": "2017-12-17T23:14:50.373Z",
+        "domain": "example.com.au",
+        "email": "user12@example.com",
+        "firstName": "Admin",
+        "isSetup": false,
+        "lastName": "User",
+        "password": "$2a$08$gtSMlrmdhH0zOeeYJzPh.egq2I65fD9WFV5PypJfNWqikrZOzFQJq",
+        "pushTokens": Array [],
+        "relationships": Array [],
+        "updatedAt": "2017-12-17T23:14:50.390Z",
+        "username": "user12@example.com",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders a UserDetailPage (setup user) 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <NavBar
+    handlePop={[Function]}
+    isMenuDisabled={true}
+    pageActions={
+      Array [
+        Object {
+          "icon": "save",
+          "label": "Save Changes",
+          "onPress": [Function],
+        },
+      ]
+    }
+    title="User Details"
+  />
+  <UserDetailView
+    onValidationChanged={[Function]}
+    user={
+      Object {
+        "__v": 0,
+        "_id": "5a36fa6aac023a4b3bae2f22",
+        "company": "5a36fa6aac023a4b3bae2f20",
+        "createdAt": "2017-12-17T23:14:50.373Z",
+        "domain": "example.com.au",
+        "email": "user12@example.com",
+        "firstName": "Admin",
+        "isSetup": true,
+        "lastName": "User",
+        "password": "$2a$08$gtSMlrmdhH0zOeeYJzPh.egq2I65fD9WFV5PypJfNWqikrZOzFQJq",
+        "pushTokens": Array [],
+        "relationships": Array [],
+        "updatedAt": "2017-12-17T23:14:50.390Z",
+        "username": "user12@example.com",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders a UserItem (new user) 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+>
+  <View
+    style={
+      Object {
+        "borderBottomColor": "#e7eaec",
+        "borderBottomWidth": 1,
+        "padding": 5,
+        "paddingLeft": 8,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        <Text>
+          User
+          , 
+        </Text>
+        <Text>
+          Admin
+        </Text>
+      </Text>
+    </View>
+    <Text>
+      user12@example.com
+    </Text>
+  </View>
+</TouchableOpacity>
+`;
+
+exports[`renders a UserItem (setup user) 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+>
+  <View
+    style={
+      Object {
+        "borderBottomColor": "#e7eaec",
+        "borderBottomWidth": 1,
+        "padding": 5,
+        "paddingLeft": 8,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        <Text>
+          User
+          , 
+        </Text>
+        <Text>
+          Admin
+        </Text>
+      </Text>
+    </View>
+    <Text>
+      user12@example.com
+    </Text>
+  </View>
+</TouchableOpacity>
+`;
+
+exports[`renders a section header 1`] = `
+<View
+  key="Test"
+  style={
+    Object {
+      "backgroundColor": "dodgerblue",
+      "padding": 5,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "rgb(255, 255, 255)",
+        "fontSize": 16,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`renders a section header with no title 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "dodgerblue",
+      "padding": 5,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "rgb(255, 255, 255)",
+        "fontSize": 16,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    No Title
+  </Text>
+</View>
+`;
+
+exports[`renders a user without a name 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+>
+  <View
+    style={
+      Object {
+        "borderBottomColor": "#e7eaec",
+        "borderBottomWidth": 1,
+        "padding": 5,
+        "paddingLeft": 8,
+      }
+    }
+  >
+    <Text>
+      user12@example.com
+    </Text>
+  </View>
+</TouchableOpacity>
+`;
+
+exports[`renders the last item 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+>
+  <View
+    style={
+      Object {
+        "borderBottomColor": "transparent",
+        "borderBottomWidth": 1,
+        "padding": 5,
+        "paddingLeft": 8,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        <Text>
+          User 2
+          , 
+        </Text>
+      </Text>
+    </View>
+    <Text>
+      User 2
+    </Text>
+  </View>
+</TouchableOpacity>
+`;

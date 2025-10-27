@@ -1,0 +1,751 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`has bindings for login, password and domain 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#f3f3f3",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "marginTop": 50,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 250,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Image
+      accessible={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../app/assets/efrsFullBanner.png",
+        }
+      }
+      style={
+        Object {
+          "height": 250,
+          "maxHeight": 667,
+          "width": 600,
+        }
+      }
+    />
+  </View>
+  <View
+    onLayout={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "minWidth": 500,
+          "padding": 16,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "rgb(217, 217, 217)",
+            "borderTopWidth": 4,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": undefined,
+              "overflow": "hidden",
+              "width": undefined,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "borderBottomWidth": 1,
+                "borderColor": "rgb(217, 217, 217)",
+                "flexDirection": "row",
+                "padding": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "alignSelf": "stretch",
+                  "color": "rgb(51, 51, 51)",
+                  "flex": 1,
+                  "fontWeight": "bold",
+                  "marginRight": 10,
+                  "padding": 10,
+                  "paddingLeft": 4,
+                  "paddingTop": 10,
+                  "textAlign": "right",
+                }
+              }
+            >
+              Username
+            </Text>
+            <View
+              style={
+                Object {
+                  "flex": 2,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "borderColor": "rgb(217, 217, 217)",
+                    "borderWidth": 1,
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "padding": 3,
+                  }
+                }
+              >
+                <TextInput
+                  allowFontScaling={true}
+                  autoCapitalize="none"
+                  autoCorrect={false}
+                  autoGrow={true}
+                  clearButtonMode="while-editing"
+                  editable={true}
+                  globalStyle={
+                    Object {
+                      "disabledText": "rgb(179, 179, 179)",
+                      "errorColour": "red",
+                      "fullLogo": Object {
+                        "testUri": "../../../app/assets/efrsFullBanner.png",
+                      },
+                      "neutralColour": "white",
+                      "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+                      "neutralColourHighlight": "rgb(217, 217, 217)",
+                      "neutralColourIsDark": false,
+                      "neutralColourOffset": "rgb(242, 242, 242)",
+                      "neutralColourText": "rgb(51, 51, 51)",
+                      "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+                      "primaryColour": "dodgerblue",
+                      "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+                      "primaryColourHighlight": "rgb(106, 182, 255)",
+                      "primaryColourIsDark": true,
+                      "primaryColourText": "rgb(255, 255, 255)",
+                      "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+                      "secondaryColour": "#f3f3f3",
+                      "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+                      "secondaryColourHighlight": "rgb(205, 205, 205)",
+                      "secondaryColourIsDark": undefined,
+                      "secondaryColourText": "rgb(39, 39, 39)",
+                      "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+                      "secondaryLogo": Object {
+                        "testUri": "../../../app/assets/icon.png",
+                      },
+                    }
+                  }
+                  keyboardType="ascii-capable"
+                  label="Username"
+                  onChange={[Function]}
+                  onChangeText={[Function]}
+                  onContentSizeChange={[Function]}
+                  rejectResponderTermination={true}
+                  selectionColor="dodgerblue"
+                  style={
+                    Array [
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "rgb(51, 51, 51)",
+                        "flex": 1,
+                        "fontSize": 16,
+                        "height": undefined,
+                        "padding": 0,
+                        "textAlignVertical": "top",
+                      },
+                    ]
+                  }
+                  translate={true}
+                  underlineColorAndroid="transparent"
+                  value="test"
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "height": undefined,
+              "overflow": "hidden",
+              "width": undefined,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "borderBottomWidth": 1,
+                "borderColor": "rgb(217, 217, 217)",
+                "flexDirection": "row",
+                "padding": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "alignSelf": "stretch",
+                  "color": "rgb(51, 51, 51)",
+                  "flex": 1,
+                  "fontWeight": "bold",
+                  "marginRight": 10,
+                  "padding": 10,
+                  "paddingLeft": 4,
+                  "paddingTop": 10,
+                  "textAlign": "right",
+                }
+              }
+            >
+              Password
+            </Text>
+            <View
+              style={
+                Object {
+                  "flex": 2,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "borderColor": "rgb(217, 217, 217)",
+                    "borderWidth": 1,
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "padding": 3,
+                  }
+                }
+              >
+                <TextInput
+                  allowFontScaling={true}
+                  autoCapitalize="none"
+                  autoGrow={true}
+                  clearButtonMode="while-editing"
+                  editable={true}
+                  globalStyle={
+                    Object {
+                      "disabledText": "rgb(179, 179, 179)",
+                      "errorColour": "red",
+                      "fullLogo": Object {
+                        "testUri": "../../../app/assets/efrsFullBanner.png",
+                      },
+                      "neutralColour": "white",
+                      "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+                      "neutralColourHighlight": "rgb(217, 217, 217)",
+                      "neutralColourIsDark": false,
+                      "neutralColourOffset": "rgb(242, 242, 242)",
+                      "neutralColourText": "rgb(51, 51, 51)",
+                      "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+                      "primaryColour": "dodgerblue",
+                      "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+                      "primaryColourHighlight": "rgb(106, 182, 255)",
+                      "primaryColourIsDark": true,
+                      "primaryColourText": "rgb(255, 255, 255)",
+                      "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+                      "secondaryColour": "#f3f3f3",
+                      "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+                      "secondaryColourHighlight": "rgb(205, 205, 205)",
+                      "secondaryColourIsDark": undefined,
+                      "secondaryColourText": "rgb(39, 39, 39)",
+                      "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+                      "secondaryLogo": Object {
+                        "testUri": "../../../app/assets/icon.png",
+                      },
+                    }
+                  }
+                  keyboardType="ascii-capable"
+                  label="Password"
+                  onChange={[Function]}
+                  onChangeText={[Function]}
+                  onContentSizeChange={[Function]}
+                  rejectResponderTermination={true}
+                  secureTextEntry={true}
+                  selectionColor="dodgerblue"
+                  style={
+                    Array [
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "rgb(51, 51, 51)",
+                        "flex": 1,
+                        "fontSize": 16,
+                        "height": undefined,
+                        "padding": 0,
+                        "textAlignVertical": "top",
+                      },
+                    ]
+                  }
+                  translate={true}
+                  underlineColorAndroid="transparent"
+                  value="test"
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginTop": 30,
+          }
+        }
+      >
+        <View
+          accessibilityRole="button"
+          accessibilityStates={Array []}
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#007AFF",
+                    "fontSize": 18,
+                    "padding": 8,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "rgb(39, 39, 39)",
+                  },
+                ]
+              }
+            >
+              Login
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`hasn't changed 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#f3f3f3",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "marginTop": 50,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 250,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Image
+      accessible={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../app/assets/efrsFullBanner.png",
+        }
+      }
+      style={
+        Object {
+          "height": 250,
+          "maxHeight": 667,
+          "width": 600,
+        }
+      }
+    />
+  </View>
+  <View
+    onLayout={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "minWidth": 500,
+          "padding": 16,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "rgb(217, 217, 217)",
+            "borderTopWidth": 4,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": undefined,
+              "overflow": "hidden",
+              "width": undefined,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "borderBottomWidth": 1,
+                "borderColor": "rgb(217, 217, 217)",
+                "flexDirection": "row",
+                "padding": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "alignSelf": "stretch",
+                  "color": "rgb(51, 51, 51)",
+                  "flex": 1,
+                  "fontWeight": "bold",
+                  "marginRight": 10,
+                  "padding": 10,
+                  "paddingLeft": 4,
+                  "paddingTop": 10,
+                  "textAlign": "right",
+                }
+              }
+            >
+              Username
+            </Text>
+            <View
+              style={
+                Object {
+                  "flex": 2,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "borderColor": "rgb(217, 217, 217)",
+                    "borderWidth": 1,
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "padding": 3,
+                  }
+                }
+              >
+                <TextInput
+                  allowFontScaling={true}
+                  autoCapitalize="none"
+                  autoCorrect={false}
+                  autoGrow={true}
+                  clearButtonMode="while-editing"
+                  editable={true}
+                  globalStyle={
+                    Object {
+                      "disabledText": "rgb(179, 179, 179)",
+                      "errorColour": "red",
+                      "fullLogo": Object {
+                        "testUri": "../../../app/assets/efrsFullBanner.png",
+                      },
+                      "neutralColour": "white",
+                      "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+                      "neutralColourHighlight": "rgb(217, 217, 217)",
+                      "neutralColourIsDark": false,
+                      "neutralColourOffset": "rgb(242, 242, 242)",
+                      "neutralColourText": "rgb(51, 51, 51)",
+                      "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+                      "primaryColour": "dodgerblue",
+                      "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+                      "primaryColourHighlight": "rgb(106, 182, 255)",
+                      "primaryColourIsDark": true,
+                      "primaryColourText": "rgb(255, 255, 255)",
+                      "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+                      "secondaryColour": "#f3f3f3",
+                      "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+                      "secondaryColourHighlight": "rgb(205, 205, 205)",
+                      "secondaryColourIsDark": undefined,
+                      "secondaryColourText": "rgb(39, 39, 39)",
+                      "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+                      "secondaryLogo": Object {
+                        "testUri": "../../../app/assets/icon.png",
+                      },
+                    }
+                  }
+                  keyboardType="ascii-capable"
+                  label="Username"
+                  onChange={[Function]}
+                  onChangeText={[Function]}
+                  onContentSizeChange={[Function]}
+                  rejectResponderTermination={true}
+                  selectionColor="dodgerblue"
+                  style={
+                    Array [
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "rgb(51, 51, 51)",
+                        "flex": 1,
+                        "fontSize": 16,
+                        "height": undefined,
+                        "padding": 0,
+                        "textAlignVertical": "top",
+                      },
+                    ]
+                  }
+                  translate={true}
+                  underlineColorAndroid="transparent"
+                  value=""
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "height": undefined,
+              "overflow": "hidden",
+              "width": undefined,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "borderBottomWidth": 1,
+                "borderColor": "rgb(217, 217, 217)",
+                "flexDirection": "row",
+                "padding": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "alignSelf": "stretch",
+                  "color": "rgb(51, 51, 51)",
+                  "flex": 1,
+                  "fontWeight": "bold",
+                  "marginRight": 10,
+                  "padding": 10,
+                  "paddingLeft": 4,
+                  "paddingTop": 10,
+                  "textAlign": "right",
+                }
+              }
+            >
+              Password
+            </Text>
+            <View
+              style={
+                Object {
+                  "flex": 2,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "borderColor": "rgb(217, 217, 217)",
+                    "borderWidth": 1,
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "padding": 3,
+                  }
+                }
+              >
+                <TextInput
+                  allowFontScaling={true}
+                  autoCapitalize="none"
+                  autoGrow={true}
+                  clearButtonMode="while-editing"
+                  editable={true}
+                  globalStyle={
+                    Object {
+                      "disabledText": "rgb(179, 179, 179)",
+                      "errorColour": "red",
+                      "fullLogo": Object {
+                        "testUri": "../../../app/assets/efrsFullBanner.png",
+                      },
+                      "neutralColour": "white",
+                      "neutralColourDisabled": "rgba(255, 255, 255, 0.3)",
+                      "neutralColourHighlight": "rgb(217, 217, 217)",
+                      "neutralColourIsDark": false,
+                      "neutralColourOffset": "rgb(242, 242, 242)",
+                      "neutralColourText": "rgb(51, 51, 51)",
+                      "neutralColourTextDisabled": "rgba(51, 51, 51, 0.3)",
+                      "primaryColour": "dodgerblue",
+                      "primaryColourDisabled": "rgba(30, 144, 255, 0.3)",
+                      "primaryColourHighlight": "rgb(106, 182, 255)",
+                      "primaryColourIsDark": true,
+                      "primaryColourText": "rgb(255, 255, 255)",
+                      "primaryColourTextDisabled": "rgba(255, 255, 255, 0.3)",
+                      "secondaryColour": "#f3f3f3",
+                      "secondaryColourDisabled": "rgba(243, 243, 243, 0.3)",
+                      "secondaryColourHighlight": "rgb(205, 205, 205)",
+                      "secondaryColourIsDark": undefined,
+                      "secondaryColourText": "rgb(39, 39, 39)",
+                      "secondaryColourTextDisabled": "rgba(39, 39, 39, 0.3)",
+                      "secondaryLogo": Object {
+                        "testUri": "../../../app/assets/icon.png",
+                      },
+                    }
+                  }
+                  keyboardType="ascii-capable"
+                  label="Password"
+                  onChange={[Function]}
+                  onChangeText={[Function]}
+                  onContentSizeChange={[Function]}
+                  rejectResponderTermination={true}
+                  secureTextEntry={true}
+                  selectionColor="dodgerblue"
+                  style={
+                    Array [
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "rgb(51, 51, 51)",
+                        "flex": 1,
+                        "fontSize": 16,
+                        "height": undefined,
+                        "padding": 0,
+                        "textAlignVertical": "top",
+                      },
+                    ]
+                  }
+                  translate={true}
+                  underlineColorAndroid="transparent"
+                  value=""
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginTop": 30,
+          }
+        }
+      >
+        <View
+          accessibilityRole="button"
+          accessibilityStates={Array []}
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#007AFF",
+                    "fontSize": 18,
+                    "padding": 8,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "rgb(39, 39, 39)",
+                  },
+                ]
+              }
+            >
+              Login
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

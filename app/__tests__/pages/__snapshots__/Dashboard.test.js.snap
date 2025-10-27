@@ -1,0 +1,392 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hasnt changed 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "dodgerblue",
+          "borderBottomColor": "rgb(106, 182, 255)",
+          "borderBottomWidth": 0,
+          "elevation": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 22,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "padding": 6,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "rgb(255, 255, 255)",
+                    "fontSize": 18,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <Text
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "rgb(255, 255, 255)",
+              "flex": 1,
+              "fontSize": 20,
+              "fontWeight": "300",
+            }
+          }
+        >
+          Tasks
+        </Text>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    style={
+      Object {
+        "backgroundColor": "white",
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgb(242, 242, 242)",
+              "borderBottomColor": "rgb(217, 217, 217)",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "overflow": "hidden",
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "rgb(51, 51, 51)",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Your Drafts
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 30,
+                },
+                Object {
+                  "color": "dodgerblue",
+                },
+                Object {
+                  "fontFamily": "FontAwesome",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "rgb(51, 51, 51)",
+              }
+            }
+          >
+            All drafts submitted
+          </Text>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgb(242, 242, 242)",
+              "borderBottomColor": "rgb(217, 217, 217)",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "overflow": "hidden",
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "rgb(51, 51, 51)",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Assigned directly to you
+          </Text>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 5,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 12,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 30,
+                },
+                Object {
+                  "color": "dodgerblue",
+                },
+                Object {
+                  "fontFamily": "FontAwesome",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "rgb(51, 51, 51)",
+              }
+            }
+          >
+            Nothing to complete
+          </Text>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgb(242, 242, 242)",
+              "borderBottomColor": "rgb(217, 217, 217)",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "overflow": "hidden",
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "rgb(51, 51, 51)",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Assigned to your group / role
+          </Text>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 5,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 12,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 30,
+                },
+                Object {
+                  "color": "dodgerblue",
+                },
+                Object {
+                  "fontFamily": "FontAwesome",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "rgb(51, 51, 51)",
+              }
+            }
+          >
+            Nothing to complete
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
